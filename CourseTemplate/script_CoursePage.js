@@ -86,10 +86,10 @@ function loadCourseMaterials(position) { //Similar to loadVideo but executes on 
 // One playlist per course. Keys must match the keys of courseContents.
 // Each video: title + any YouTube link (watch?v=..., youtu.be/..., or embed/...)
 const coursePlaylists = {
-  "Onstitute_Course_LiveF2F": [
-    { title: "Lesson 1", url: "https://www.youtube.com/watch?v=VIDEO_ID_1" },
-    { title: "Lesson 2", url: "https://www.youtube.com/watch?v=VIDEO_ID_2" },
-    { title: "Lesson 3", url: "https://www.youtube.com/watch?v=VIDEO_ID_3" }
+  "Onstitute_Course_LiveF2F": [ //No need for any menu
+    // { title: "Lesson 1", url: "https://www.youtube.com/watch?v=VIDEO_ID_1" },
+    // { title: "Lesson 2", url: "https://www.youtube.com/watch?v=VIDEO_ID_2" },
+    // { title: "Lesson 3", url: "https://www.youtube.com/watch?v=VIDEO_ID_3" }
   ],
   "Onstitute_Course_Python101": [
     { title: "Lesson 1", url: "https://www.youtube.com/watch?v=ouJ6-Q3nBPk&list=PLG6Y-NQXjFeZL7gfbiczvv3I8WXef1ikB&index=2" },
